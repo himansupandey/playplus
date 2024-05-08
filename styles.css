@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    color: #d49797;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-size: 2rem;
+    text-align: center;
+    /* background-color: #918585; */
+    color: #fff;
+    padding: 0.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #73C8A9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+main{
+    text-align: center;
+   
+    padding-top:100px;
+    padding-bottom:50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 100px;
+    box-shadow: 0 2px 4px rgba(150, 94, 94, 0.1);
+    background-image: url(dark-hexagonal-background-with-gradient-color_79603-1409.avif);
+}
+
+footer{
+    font-size: 1.5rem;
+    text-align: center;
+    /* background-color: #444; */
+    color:white;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(15, 15, 15, 0.1);
+    background: #73C8A9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.games-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    /* background-image: url(dark-hexagonal-background-with-gradient-color_79603-1409.avif); */
+    
+}
+
+.game{
+    border: 3px solid #131010;
+    background-color: #2d453f;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    height: 20rem;
+    width: 10rem;
+    box-shadow: 1px 1px 20px rgba(245, 248, 248, 0.865);
+
+}
+
+button{
+    background-color: #24bc29;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition :  all   .3s ease;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* background-image: linear-gradient(to top, #78ec13 0%, #c3e119 100%); */
+}
+
+button:hover{
+    background-color: #4a498e;
+}
